@@ -99,7 +99,7 @@ class SdInterface
                                // (card-specific data) register
     kStopTrans = 0x40 | 12,    // CMD12: terminates a multi-block read or
                                // write operation
-    kGetStatus = 0x04 | 13,    // CMD13: get status register
+    kGetStatus = 0x40 | 13,    // CMD13: get status register
     kChgBlkLen = 0x40 | 16,    // CMD16: change block length (only
                                // effective in SDSC cards; SDHC/SDXC
                                // cards are locked to 512-byte blocks)
